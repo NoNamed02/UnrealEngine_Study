@@ -14,7 +14,7 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+#*.dll
 
 # Fortran module files
 *.mod
@@ -46,8 +46,11 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # Binary Files
-Binaries/*
-Plugins/**/Binaries/*
+#Binaries/*
+#Plugins/**/Binaries/*
+Binaries/Win64/*.pdb
+Binaries/Win64/*.exp
+
 
 # Builds
 Build/*
@@ -72,3 +75,12 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+Content/SCK_Casual01
+Content/LearningKit_Games
+Content/LearningKit_Robots
+Content/Hour_of_Code
+Content/BlockGame
+.vscode/
+
+Content/StarterContent
